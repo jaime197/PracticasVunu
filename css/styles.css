@@ -1,0 +1,724 @@
+* {
+    
+    margin: 0;
+    box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+
+    scroll-behavior: smooth;
+    color:black;
+
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+header {
+    background: url(../img/portada.jpg);
+    background-position:center top left;
+    height: 94vh;
+    width: 100%;
+    background-attachment:fixed;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+#menu2 {
+  
+    position:sticky;
+    top: 0;
+   
+
+    
+  
+}
+
+#menu2 > ul {
+    max-width: 100;
+    margin: auto;
+    height: 3.2em;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFD71E;
+    
+}
+
+
+#menu2 > ul > li {
+    list-style: none;
+    
+}
+#menu2 > ul > li > a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    
+    
+}
+#menu2 > ul > li   {
+    text-decoration: none;
+  
+}
+
+#titulos{margin-top: 20%;
+margin-left: 3'6%;
+color: black; 
+}
+
+header >#titulos> h1,
+header >#titulos> h2 {
+  
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    
+    
+}
+#titulos2{
+    position: absolute;
+margin-top: 10%;
+margin-left: 2%;
+
+}
+
+#titulos2 >h1{
+    
+margin-top: 10%;
+margin-left: 2%;
+
+}
+
+#titulos2 >h2{
+
+margin-top: 5%;
+margin-left: 2%;
+
+}
+
+#titulos2 >p{
+    position: absolute;
+    margin-top: 10%;
+    line-height: 200%;
+    max-width: 90%;
+ 
+}
+
+#titulos3{margin-top: 20%;
+margin-left: 3'6%;
+color: black; }
+
+header >#titulos3> h1,
+header >#titulos3> h2 {
+    
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    
+    
+}
+
+#titulos3{
+    position: absolute;
+margin-top: 10%;
+margin-left: 80%;
+    line-height: 300%
+
+}
+
+#titulos3 >h2{
+  margin-top: 5%;
+
+}
+#titulos3 >h1{
+  margin-top: 5%;
+
+}
+
+
+
+
+.parallax {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#parallax1 {
+    background-image: url(../img/girafa.jpg);
+
+}
+
+
+
+#parallax2 {
+    background-image: url(../img/mono2.jpg);
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+
+
+#introduccion{
+      background-attachment:fixed;
+    background: url(../img/foca.png);
+    background-position: top center;
+   
+    height: 100vh;
+    width: 100%;
+    display: flex;
+ 
+    flex-direction: column;
+    justify-content: flex-start;
+     }
+#texto{
+    position: absolute;
+    width: 54%;
+    margin-left:  50%;
+    margin-top: 25%;
+}
+ #texto> h2 {
+    
+    font-size: 300%;
+    margin-left: 10%;
+     margin-top: 5%;
+}
+ #texto> p {
+    
+    font-size: 100%;
+    margin-left: 10%;
+     margin-top: 2.5%;
+     line-height: 150%;
+     max-width: 50%;
+     
+         
+}
+
+
+
+
+#texto2{
+    position: absolute;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 25%;
+    color:white;
+}
+ #texto2> h2 {
+    
+    font-size: 250%;
+    margin-left: 15%;
+     margin-top: 5%;
+     color: white;
+}
+ #texto2> p {
+    
+    font-size: 100%;
+    margin-left: 15%;
+     margin-top: 2.5%;
+     line-height: 150%;
+     max-width: 50%;
+     color: white;
+         
+}
+
+
+
+
+
+
+#introduccion3{
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    vertical-align: center;
+    align-self: center;
+    margin-top: 3em;
+    
+
+}
+#introduccion3> p{
+     margin: auto;
+    vertical-align: center;
+    text-align: center;
+    margin-top: 1em;
+    text-align: center;
+    line-height: 1.8em;
+    max-width: 30em
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fa-bars {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.5em;
+    color:white;;
+    font-size: 1.5em;
+}
+
+.fa-bars:hover {
+    color:  blanchedalmond;
+    cursor: pointer;
+}
+
+#menu {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'merriweather', sans-serif;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    transition: 0.5s;
+}
+
+#menu > ul {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(300,200, 100, 0.8);
+}
+
+#menu > ul > li {
+    list-style: none;
+    padding: 0.5em;
+}
+
+#menu > ul > li > a {
+    color: black;
+    text-decoration: none;
+    font-size: 5em;
+}
+
+#menu > ul > li:hover > a {
+    font-weight: bold;
+   
+}
+
+#close {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    font-size: 1em;
+    color: white;
+}
+
+#close:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#maps{
+   margin: auto;
+    vertical-align: center;
+    text-align: center;
+    margin-top: 1em;
+
+   
+    
+    
+
+    
+ 
+   
+}
+
+
+.footer {
+
+  left: 0;
+  bottom: 0;
+  height: 20vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.footer >div{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 27%
+}
+
+@media only screen and (max-width: 700px) {
+header {
+    background: url(../img/portada%20revista2.jpg);
+    background-position:center top left;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+ 
+    }
+#texto{
+    position: absolute;
+    width: 49%;
+    margin-left: 5%;
+    margin-top: 5%;
+    
+}
+ #texto> h2 {
+    
+    font-size: 300%;
+    margin-left: 5%;
+     margin-top: 5%;
+     color: white;
+}
+ #texto> p {
+    
+    font-size: 100%;
+    margin-left: 5%;
+     margin-top: 2.5%;
+     line-height: 150%;
+     max-width: 80%;
+     color: white
+    }
+    #texto2{
+    position: absolute;
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 25%;
+    color: white;
+}
+ #texto2> h2 {
+    
+    font-size: 240%;
+    margin-left: 5%;
+     margin-top: 60%;
+     color: white;
+}
+ #texto2> p {
+    
+    font-size: 100%;
+    margin-left: 5%;
+     margin-top: 2.5%;
+     line-height: 150%;
+     max-width: 50%;
+     color: white;
+    }
+      #maps{
+   margin: auto;
+    vertical-align: center;
+    text-align: center;
+    
+    margin-top: 1em;
+    }
+   
+    #titulos {margin-top: 20%;
+margin-left: 3'6%;
+color: white; }
+
+header >#titulos> h1,
+header >#titulos> h2 {
+    
+    color: white;
+    text-shadow: 1px 1px 1px white;
+    
+    
+}
+#titulos2> h1,h2{
+
+    color: white
+
+}
+
+
+#titulos2 >p{
+    position: absolute;
+    margin-top: 10%;
+    line-height: 200%;
+    max-width: 90%;
+    color: white
+ 
+}
+
+    
+
+    #iniciar{
+        position: absolute;
+        
+        
+    }
+    
+   
+  
+ 
+    
+  
+   
+}
+   
+} 
+         
+}
+
+#contacto {
+	width: 100%;
+	display: flex;
+}
+@media (max-width: 768px){
+	#contacto {
+		flex-wrap: wrap;
+	}
+}
+#contacto #caja-formulario {
+	width: 50%;
+	background-color: #fff;
+	padding: 0 0 25px 0;
+}
+@media (max-width: 1024px){
+	#contacto #caja-formulario {
+		width: 60%;
+	}	
+}
+@media (max-width: 768px){
+	#contacto #caja-formulario {
+		width: 100%;
+	}	
+}
+#formulario {
+	margin: auto;
+	width: 70%;
+}
+#formulario-titular {
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+	margin-top: 75px;
+	margin-bottom: 20px;
+}
+
+.estilos-input {
+	display: block;
+	border-style: none;
+	height: 30px;
+	width: 100%;
+	padding-top: 0px;
+	margin-top: -20px;
+	font-family: 'Open Sans';
+	padding: 5px 10px;
+	font-size: 90%;
+}
+.mensaje {
+	height: 180px;
+	display: block;
+	border-style: none;
+	padding-bottom: 150px;
+	width: 100%;
+	resize: none;
+	margin-top: -20px;
+	font-family: 'Open Sans';
+	padding: 15px 10px;
+	max-width: 100%;
+	max-height: 180px;
+	font-size: 90%;
+}
+#formulario-texto {
+	width: 60%;
+	float: left;
+	font-size: 14px;
+	line-height: 120%;
+	margin-bottom: 20px;
+	padding: 0 10px 0 0;
+}
+@media (max-width: 768px){
+	#formulario-texto {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+}
+#formulario-texto p {
+	margin: 0;
+}
+#formulario-texto p:last-child {
+	margin: 5px 0 0;
+}
+
+#submit {
+	width: 36%;
+	float: right;
+	margin: 0 -1px 0 0;
+}
+@media (max-width: 768px){
+	#submit {
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin: 20;
+	}
+}
+#boton-enviar {
+	height: 40px;
+	width: 150px;
+	background-color: #fff;
+	border: 4px solid #000;
+	float: right;
+	
+	font-weight: bold;
+	cursor: pointer;
+    color: black
+    
+ 
+}
+@media (max-width: 768px){
+	#boton-enviar {
+		float: none;
+		margin: 0 0 20px;
+	}
+}
+#pie {
+	width: 100%;
+	background-color: hsla(214,55%,56%,1.00);
+	overflow: hidden;
+}
+#caja-pie {
+	margin: auto;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+@media (max-width: 768px){
+	#caja-pie {
+		flex-wrap: wrap;
+	}
+	
+}
+#caja-pie #texto-pie {
+	padding-top: 22px;
+	color: hsla(0,0%,100%,1.00);
+	text-align: right;
+	font-size: 90%;
+}
+@media (max-width: 768px){
+	#caja-pie #texto-pie {
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+}
+
+}
+
+}
+
+
+
+
+#galeria {
+    min-height: 100vh;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+#galeria > div {
+    display: block;
+    overflow: hidden;
+}
+
+#galeria > div > div {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 25s slider infinite;
+    
+}
+
+#galeria > div > div > figure {
+    width: 20%;
+    float: left;
+    position: relative;
+    /* Ponemos el position: relative para después poner el figcaption con position: absolute por encima */
+}
+
+#galeria > div > div > figure > figcaption {
+    width: 100%;
+    height: 6em;
+    position: absolute;
+    bottom: 0;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(1000, 1000, 1000, 0.5);
+    color: white;
+    
+}
+
+#galeria > div > div > figure > img {
+    width: 100%;
+    vertical-align: middle;
+    
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+
+    
+}
